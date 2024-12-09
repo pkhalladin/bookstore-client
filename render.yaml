@@ -5,5 +5,5 @@ services:
     runtime: node
     plan: free
     buildCommand: npm install
-    startCommand: npm dev
+    startCommand: npm start
 
