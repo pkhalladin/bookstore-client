@@ -4,6 +4,6 @@ services:
     repo: https://github.com/pkhalladin/bookstore-client
     runtime: node
     plan: free
-    buildCommand: npm build
+    buildCommand: npm install
     startCommand: npm dev
 
