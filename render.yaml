@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: bookstore-client
+    repo: https://github.com/pkhalladin/bookstore-client
+    runtime: node
+    plan: free
+    buildCommand: npm build
+    startCommand: npm dev
+
