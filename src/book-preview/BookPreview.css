@@ -1,0 +1,28 @@
+.book-preview {
+    padding: 1em;
+}
+
+.title {
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.author {
+    font-size: 10pt;
+    font-variant: small-caps;
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". ."; 
+}
+
+.image {
+    grid-row: span 2;
+}

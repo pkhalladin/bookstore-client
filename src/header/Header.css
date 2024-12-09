@@ -1,0 +1,18 @@
+.header {
+    width: 100%;
+    padding: 2em;
+    background-color: #119955;
+    color: white;
+}
+
+.link-left, .link-right {
+    color: white;
+}
+
+.link-left {
+    float: left;
+}
+
+.link-right {
+    float: right;
+}
